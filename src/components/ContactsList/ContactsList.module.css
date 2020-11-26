@@ -1,0 +1,33 @@
+.list {
+  margin-left: 30px;
+  list-style: square;
+  padding-left: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.contact {
+  margin: 0;
+}
+
+.btn {
+  width: 42px;
+  height: 16px;
+  font-size: 10px;
+  padding: 0;
+  margin-left: 10px;
+  background-color: rgb(238, 236, 236);
+  outline: none;
+  border-radius: 3px;
+  border: solid 1px black;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: blue;
+  color: white;
+}
